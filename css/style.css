@@ -38,10 +38,15 @@ h1{
 
 .text{
     padding: 50px 50px;
+    width: 50%;
 }
 
 .container{
     display: flex;
+}
+
+.large-img{
+    width: 60%;
 }
 
 /*MAIN*/
