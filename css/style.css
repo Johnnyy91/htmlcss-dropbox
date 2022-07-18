@@ -31,9 +31,14 @@ main{
 .part1{
     background-color: green;
     height: 200px;
-    width: 200px;
+    width: 100%;
 }
 
+.professional , .advanced , .enterprise{
+    background-color: darkorange;
+    height: 50px;
+    width: 50px;
+}
 
 footer{
     height: 20vh;
