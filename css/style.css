@@ -7,3 +7,35 @@
 body{
     font-family: sans-serif;
 }
+
+header{
+    height: 10vh;
+    background-color: red;
+}
+
+.micro-head{
+    background-color: aqua;
+    height: 20%;
+}
+
+.macro-head{
+    background-color: blue;
+    height: 80%;
+}
+
+main{
+    height: 70vh;
+    background-color: white;
+}
+
+.part1{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+
+footer{
+    height: 20vh;
+    background-color: black;
+}
