@@ -12,6 +12,8 @@ img{
     width: 100%;
 }
 
+/*HEADER*/
+
 .micro-head{
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,7 @@ h1{
 }
 
 /*MAIN*/
+
 main{
     background-color: white;
 }
@@ -56,9 +59,21 @@ main{
     background-color: darkorange;
 }
 
+.set-2{
+    display: flex;
+    justify-content: center;
+}
+
 .container-img{
     display: flex;
-    height: 500px;
+    height: 400px;
+    width: 60%;
+    padding: 20px 20px;
+}
+
+.little-text{
+    width: 40%;
+    padding: 20px 20px;
 }
 
 .card-container{
@@ -78,7 +93,16 @@ main{
     height: 300px;
 }
 
+.set-6{
+   display: flex;
+}
+
+.set-6 li{
+    display: block;
+}
+
 /*FOOTER*/
+
 footer{
     background-color: black;
 }
@@ -109,7 +133,7 @@ h4{
     display: block;
 }
 
-hr{
+#foot{
     width: 10%;
     margin-top: 50px;
     margin-left: 135px;
