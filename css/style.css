@@ -8,39 +8,46 @@ body{
     font-family: sans-serif;
 }
 
-header{
-    height: 10vh;
-    background-color: red;
-}
 
 .micro-head{
-    background-color: aqua;
-    height: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 10px;
 }
 
 .macro-head{
-    background-color: blue;
-    height: 80%;
+    background-color: lightblue;
+    text-align: center;
+    margin: 0 auto;
 }
 
+.text{
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+
 main{
-    height: 70vh;
     background-color: white;
 }
 
-.part1{
-    background-color: green;
-    height: 200px;
-    width: 100%;
+.column{
+    display: flex;
+    justify-content: center;
 }
 
 .professional , .advanced , .enterprise{
     background-color: darkorange;
-    height: 50px;
-    width: 50px;
 }
 
 footer{
-    height: 20vh;
     background-color: black;
 }
