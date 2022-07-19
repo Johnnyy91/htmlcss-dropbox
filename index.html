@@ -31,8 +31,10 @@
         </div>
 
         <div class="macro-head">
-            <h1>TUTTO CIò CHE TI SERVE PER IL LAVORO, IN UN UNICO POSTO</h1>
-            <div class="container flex">
+            
+            <div class="container">
+                <h1>TUTTO CIò CHE TI SERVE PER IL LAVORO, IN UN UNICO POSTO</h1>
+                <div class="flex">
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, omnis asperiores eos delectus labore pariatur veritatis amet, veniam voluptates eveniet fugiat necessitatibus rerum architecto nobis distinctio. Animi officia quibusdam non.</p>
                     <button>Inizia la tua prova gratuita</button>
@@ -42,6 +44,7 @@
                 <div class="large-img">
                     <img src="img/business-feature-coordinate-it.png" alt="proposta per il cliente-img">
                 </div>
+             </div>
             </div>
          
 
@@ -52,10 +55,13 @@
 
     <!--MAIN-->
     <main>
-        <section>
+        <section id="business">
             <h2>Trova il piano business che fa per te</h2>
-            <input type="checkbox" name="Fatturazione mensile" id="Fatturazione mensile" value="Fatturazione mensile">Fatturazione mensile
-            <input type="checkbox" name="Fatturazione annuale" id="Fatturazione annuale" value="Fatturazione annuale">Fatturazione annuale
+            <input type="radio" name="payment" value="Fatturazione mensile">
+            <label for="mensile">Pagamento mensile</label>
+            <input type="radio" name="payment" value="Fatturazione annuale">
+            <label for="annuale">Pagamento annuale</label>
+            
                 <div class="column flex">
                     <div class="professional">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto blanditiis eligendi vitae necessitatibus nostrum corrupti. Aperiam rerum vero corrupti minus veniam, eum veritatis sequi. Voluptates rerum sed architecto delectus dolorum!
@@ -75,9 +81,9 @@
         </section>
 
 
-        <section class="set-2 flex">
-            <div class="container-img flex">
-             <img src="img/partner.png" alt="partner-img">
+        <section id="partner">
+            <div class="container flex">
+             <img id="partner-img" src="img/partner.png" alt="partner-img">
              <div class="little-text">
                 <h3>Entra in contatto con un partner Dropbox</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum consequuntur quidem odit, corporis, dicta, ducimus saepe deserunt eum repellendus libero nulla voluptatibus optio deleniti dolorem vero molestiae omnis. Ipsam, sit!</p>
@@ -86,9 +92,10 @@
             </div>
         </section>
 
-        <section>
+
+        <section id="multi-card">
             <h2 id="operation">Esegui più operazioni con Dropbox Business</h2>
-            <div class="card-container flex">
+            <div class="card-container container flex">
                 <div class="card">
                     <img src="img/business-feature-multi-device.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
@@ -122,12 +129,55 @@
             </div>
         </section>
 
-        <section></section>
+        <section id="company-feedback">
+            <div class="container">
+                <h2>Più di 500000 team usano Dropbox Business</h2>
+                <p><a href="#">Scopri di più sui nostri clienti</a></p>
+            </div>
+            <div class="container-large">
+                <div class="company-block flex wrap">
+                    <div class="block-container">
+                        <div class="square red">
+                            <img src="img/arizona_state_university.svg" alt="arizona">
+                        </div>
+                        <div class="square green">
+                            <img src="img/designit.svg" alt="designit">
+                        </div>
+                        <div class="square yellow">
+                            <img src="img/university_of_florida.svg" alt="university">
+                        </div>
+                        <div class="square red">
+                            <img src="img/topps.svg" alt="topps">
+                        </div>
+                    </div>
+                    <div class="feedback-container">
+                        <img src="img/designit.svg" alt="designit">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laborum accusantium labore molestias sit omnis nisi, incidunt minima similique modi, amet ad dicta saepe! Illum nam corporis optio repellendus deleniti?</p>
+                        <p>Morten Thomas , Global IT lead</p>
+                    </div>
+                    <div class="block-container">
+                        <div class="square blu">
+                            <img src="img/clear_channel.svg" alt="clear_channel">
+                        </div>
+                        <div class="square red">
+                            <img src="img/lonely_planet.svg" alt="lonely_planet">
+                        </div>
+                        <div class="square red">
+                            <img src="img/world_bicycle_relief.svg" alt="bicycle">
+                        </div>
+                        <div class="square orange">
+                            <img src="img/hearst_corp.svg" alt="hearst_corp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section></section>
+        
 
-        <section>
-            <div class="set-6 flex">
+        <section id="faq">
+            <div class="container">
+            <div class="set-6">
              <h2>Domande frequenti</h2>
              <ul>
                 <li><hr></li>
@@ -139,6 +189,7 @@
                 <li><hr></li>
             </ul>
            </div>
+        </div>
         </section>
 
     </main>
@@ -146,6 +197,7 @@
     <!--FOOTER-->
 
     <footer>
+        <div class="container">
      <div class="foot-end">
         <div class="little-test">
             <h4>Dropbox</h4>
@@ -211,7 +263,7 @@
             </select>
         </div>
     
-
+    </div>
     </footer>
 
 </body>
