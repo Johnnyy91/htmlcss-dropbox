@@ -57,12 +57,20 @@ h1{
     top: 70px;
 }
 
+button{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+}
+
 /*MAIN*/
 
 main{
     background-color: white;
 }
 
+/*BUSINESS*/
 .column{
     display: flex;
     justify-content: center;
@@ -72,6 +80,7 @@ main{
     background-color: darkorange;
 }
 
+/*PARTNER*/
 #partner-img{
     width: 60%;
     padding: 20px 20px;
@@ -83,6 +92,7 @@ main{
     margin-top: 50px;
 }
 
+/*MULTI-CARD*/
 .card-container{
     flex-wrap: wrap;
     justify-content: center;
@@ -98,6 +108,7 @@ main{
     padding: 0 15px;
 }
 
+/*COMPANY-FEEDBACK*/
 .container-large{
     max-width: 100%;
 }
@@ -157,6 +168,7 @@ main{
     width: 60%;
 }
 
+/*FAQ*/
 .set-6{
     padding-top: 30px;
     padding-bottom: 30px;
