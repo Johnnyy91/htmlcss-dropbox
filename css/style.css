@@ -95,8 +95,17 @@ main{
 }
 
 .professional , .advanced , .enterprise{
-    background-color: darkorange;
+    padding-top: 50px;
+    border: 1px solid grey;
+    margin-right: 20px;
+    margin-top: 30px;
 }
+
+.column i{
+    font-size: 15px;
+}
+
+
 
 /*PARTNER*/
 
@@ -300,7 +309,7 @@ footer{
     padding-top: 30px;
 }
 
-h4{
+.little-test h4{
     font-size: 14px;
     color: white;
     padding: 25px 10px;
