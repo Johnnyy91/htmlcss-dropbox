@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 img{
@@ -97,9 +98,12 @@ main{
     margin-top: 150px;
 }
 
+#business label{
+    padding-right: 25px;
+}
+
 .column{
     display: flex;
-    justify-content: center;
     font-size: 0.8rem;
     flex-wrap: wrap;
     width: calc(100% / 3);
@@ -129,6 +133,11 @@ main{
 .column button{
     text-align: center;
     width: 100%;
+}
+
+.enterprise-bottom{
+    border: 1px solid #666;
+    text-align: center;
 }
 
 
