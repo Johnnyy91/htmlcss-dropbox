@@ -102,19 +102,20 @@ main{
     padding-right: 25px;
 }
 
-.column{
+.row{
     display: flex;
     font-size: 0.8rem;
     flex-wrap: wrap;
-    width: calc(100% / 3);
-    flex-direction: column;
 }
 
+.column{
+    width: calc(100% / 3 - 60px);
+}
 .professional , .advanced , .enterprise{
-    padding-top: 50px;
     border: 1px solid #666;
     margin-right: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .column p, h4, h5{
@@ -123,11 +124,11 @@ main{
 
 .column span{
     color: #0061FF;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .column i{
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .column button{
@@ -138,8 +139,32 @@ main{
 .enterprise-bottom{
     border: 1px solid #666;
     text-align: center;
+    font-size: 0.8rem;
 }
 
+.enterprise-bottom i{
+    font-size: 10px;
+}
+
+.flex-doublediv{
+    justify-content: space-between;
+}
+
+.ent-bot{
+    text-align: left;
+    padding: 15px;
+    width: 70%;
+}
+
+.but-but{
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 30%;
+}
+
+.flex-doublediv p{
+    padding-left: 10px;
+}
 
 /*PARTNER*/
 
