@@ -38,13 +38,21 @@ ul li{
     padding: 0 10px;
 }
 
+.micro-head li:not(button):hover{
+    border-bottom: 1px solid black;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
 .macro-head{
     background-color: #B4CFE7;
     margin: 0 auto;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 70px;
     color: black;
     padding-top: 30px;
 }
@@ -92,19 +100,36 @@ main{
 .column{
     display: flex;
     justify-content: center;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    flex-direction: column;
 }
 
 .professional , .advanced , .enterprise{
     padding-top: 50px;
-    border: 1px solid grey;
+    border: 1px solid #666;
     margin-right: 20px;
     margin-top: 30px;
+}
+
+.column p, h4, h5{
+    padding: 15px;
+}
+
+.column span{
+    color: #0061FF;
+    font-size: 20px;
 }
 
 .column i{
     font-size: 15px;
 }
 
+.column button{
+    text-align: center;
+    width: 100%;
+}
 
 
 /*PARTNER*/
@@ -215,30 +240,40 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border 1s linear;
 }
 
 .red{
+    color: rgb(255, 140, 0);
     background-color: red;
 }
 
 .green{
+    color: rgb(144, 218, 238);
     background-color: lightgreen;
 }
 
 .yellow{
+    color: rgb(224, 255, 237);
     background-color: lightyellow;
 }
 
 .blu{
+    color: #b4b4e7;
     background-color: #B4CFE7;
 }
 
 .orange{
+    color: rgb(200, 255, 0);
     background-color: orange;
 }
 
 .square img{
     width: 60%;
+}
+
+.square:hover{
+    border: 10px solid currentColor;
 }
 
 .container-large-under{
