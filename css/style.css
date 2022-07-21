@@ -218,7 +218,6 @@ main{
     padding: 0 15px;
 }
 
-
 .card h3{
     padding: 20px 0;
 }
@@ -332,9 +331,6 @@ main{
     padding: 15px;
 }
 
-
-
-
 /*FAQ*/
 
 #faq{
@@ -372,7 +368,6 @@ footer{
     justify-content: center;
 }
 
-
 .little-test{
     width: 15%;
     padding-top: 30px;
@@ -383,7 +378,6 @@ footer{
     color: white;
     padding: 25px 10px;
 }
-
 
 .little-test ul li{
     color: white;
@@ -412,7 +406,3 @@ select{
     color: white;
     font-size: 15px;
 }
-
-
-
-
